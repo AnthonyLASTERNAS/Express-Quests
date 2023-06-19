@@ -1,6 +1,6 @@
 require("dotenv").config();
 
-const mysql = require("mysql2/promise");
+const mysql=require("mysql2/promise");
 
 const database = mysql.createPool({
     host: process.env.DB_HOST, // address of the server
@@ -19,13 +19,5 @@ const database = mysql.createPool({
     console.error(err);
   });
 
-  database
-  .query("select * from movies")
-  .then((result) => {
-    console.log(result);
-  })
-  .catch((err) => {
-    console.error(err);
-  });
-
   module.exports = database;
+  

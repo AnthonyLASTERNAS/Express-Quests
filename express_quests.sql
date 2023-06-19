@@ -84,11 +84,11 @@ VALUES (
         'john.doe@example.com',
         'Paris',
         'English',
-        "$argon2id$v=19$m=16,t=2,p=1$emVmZXpmemZlemVmZWR6ZXplZg$rqZkhxu5YbqCGHPNrjJZpQ"
+        '$argon2id$v=19$m=16,t=2,p=1$emVmZXpmemZlemVmZWR6ZXplZg$rqZkhxu5YbqCGHPNrjJZpQ'
     ), (
         'Valeriy',
         'Appius',
-        'valeriy.ppius@example.com',
+        'valeriy.appius@example.com',
         'Moscow',
         'Russian',
         '$argon2id$v=19$m=16,t=2,p=1$emVmemVmemZlemZ6ZnpmZQ$eSetR6KPUNAGW+q+wDadcw'
